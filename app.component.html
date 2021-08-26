@@ -1,0 +1,7 @@
+<h1> First task</h1>
+<ol>
+  <li *ngFor="let item of list;let even=even;let odd=odd"
+  [ngClass]="{even:even,odd:odd}">
+  {{item.name}}
+</li>
+</ol>
